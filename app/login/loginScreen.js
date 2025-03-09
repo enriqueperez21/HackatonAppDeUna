@@ -25,7 +25,7 @@ export const LoginScreen = ({ navigation }) => {
         />
         <TouchableOpacity 
           style={loginStyles.button} 
-          onPress={() => navigation.navigate('HomeNavigation')}>
+          onPress={() => navigation.navigate('HomeNav')}>
           <Text style={loginStyles.buttonText}>Seguir a la aplicación</Text>
         </TouchableOpacity>
         <StatusBar style="auto" />

@@ -4,7 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 
 export const ViewScreen = ({ navigation, children }) => {
   return (
-    <View style={{flex:1}}>
+    <View style={{flex:1, marginHorizontal: 5}}>
         <HeadBarSpace/>
         {children}
         <StatusBar style="auto" />

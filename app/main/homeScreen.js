@@ -15,7 +15,7 @@ export const HomeScreen = ({ navigation }) => {
         <View style = {{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
             <TouchableOpacity 
             style={{flex: 1, alignItems: 'center'}} 
-            onPress={() => navigation.navigate('HomeNavigation')}>
+            onPress={() => navigation.navigate('UserScreen')}>
                 <Image
                 source={require('../../assets/Images/iconoUsuario.png')} // URL de la imagen
                 style={{width: 100,
@@ -25,7 +25,7 @@ export const HomeScreen = ({ navigation }) => {
             </TouchableOpacity>
             <TouchableOpacity 
             style={{flex: 1, alignItems: 'center'}} 
-            onPress={() => navigation.navigate('HomeNavigation')}>
+            onPress={() => navigation.navigate('StoreScreen')}>
                 <Image
                 source={require('../../assets/Images/iconoTienda.png')} // URL de la imagen
                 style={{width: 100,
