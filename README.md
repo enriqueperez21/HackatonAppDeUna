@@ -18,20 +18,22 @@ npm install -g expo-cli exp
 ```
 Ejecutar dentro de la carpeta de la aplicación
 ```bash
-- npm install
+npm install
 ```
 Ejecución de la aplicación:
-- npx expo start
+```bash
+npx expo start
+```
 
-### Instalación en dispositivo:
+### Instalación en dispositivo 📱:
 - Usar emulador de Android con Android studio, se presiona la tecla a una vez haya inicializado el proyecto.
 
 - Usar aplicación en dispositivo fisico "Expo go", escanear el QR y generar la aplicación automáticamente.
 
-## Recomendaciones.
+## Recomendaciones 🔧.
 No enviar demasiadas consultas al chatbot por el límite de tokens para la API.
 
-## Tecnologías.
+## Tecnologías 🔎.
 - React Native - Javascript.
 - Api de Google Gemini.
 - Expo - Construcción del Apk.
